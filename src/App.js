@@ -19,7 +19,7 @@ function A5() {
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/testRouter">
       <Routes>
         <Route path="/" >
           <Route index element={<A1 />} />
