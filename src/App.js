@@ -19,7 +19,7 @@ function A5() {
 
 function App() {
   return (
-    <HashRouter >
+    <BrowserRouter >
       <Routes>
         <Route path="/" >
           <Route index element={<A1 />} />
@@ -30,7 +30,7 @@ function App() {
           <Route path="a5" element={<A5 />} />
         </Route>
       </Routes>
-    </HashRouter>
+    </BrowserRouter>
   );
 }
 
