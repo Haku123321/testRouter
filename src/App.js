@@ -19,7 +19,7 @@ function A5() {
 
 function App() {
   return (
-    <HashRouter basename="/testRouter">
+    <HashRouter >
       <Routes>
         <Route path="/" >
           <Route index element={<A1 />} />
